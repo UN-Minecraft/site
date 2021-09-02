@@ -1,0 +1,71 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.fa {
+    margin: 5px;
+}
+
+#main-nav {
+    background: #222;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    
+}
+
+#main-nav a {
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 2%;
+
+}
+
+#main-nav a:hover {
+    background: #555;
+}
+
+#main-header {
+    background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcs2.worldofmods.com%2Fscreenshots%2Ff80ce%2F2015-09%2Foriginal%2F3fcef9929b66935fc24369af20feba9afe7c1f31%2F173442-javaw-2015-09-26-11-37-36-70.jpg&f=1&nofb=1");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 20%;
+}
+
+a {
+    color: #555;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+#content {
+    margin: 10% auto;
+    width: 90%;
+}
+
+#main-footer {
+    background: #222;
+    color: #f2f2f2;
+    padding: 5%;
+}
+
+.fa-instagram {
+    color: #C13584;
+}
+
+.fa-discord {
+    color: #7289DA;
+}
