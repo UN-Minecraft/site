@@ -9,17 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/89178b42f5.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>UN Minecraft</title>
 </head>
 <body>
-    <nav id="main-nav">
-        <a href="/">
-            <i class="fa fa-home"></i> Home
-        </a>
-        <a href="http://192.3.31.108:31598/">
-            <i class="fas fa-map-marker"></i> Mapa
-        </a>
-    </nav>
+    <?php include("nav.php") ?>
     
     <header id="main-header">
             <h1>UNCRAFT.CRAFTED.PRO</h1>
@@ -36,11 +29,6 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nobis explicabo asperiores magni ea cumque autem consequuntur, quis dolorem tenetur ab culpa optio voluptate voluptatibus dolorum beatae maiores adipisci nemo.</p>
     </div>
 
-    <footer id="main-footer">
-        <p>UN Minecraft</p>
-            <a href="https://www.instagram.com/minecraft_un/"><i class="fa fa-instagram"></i></a>
-   
-            <a href="https://discord.gg/9NtGSAyDV9"><i class="fab fa-discord"></i></a>     
-    </footer>
+    <?php include("footer.php") ?>
 </body>
 </html>

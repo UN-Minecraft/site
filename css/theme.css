@@ -9,23 +9,25 @@ body {
 }
 
 #main-nav {
-    background: #222;
+    background: #393939;
     width: 100%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding: 1%;
     position: fixed;
-    
+    top: 0;
 }
 
 #main-nav a {
     color: #f2f2f2;
     text-decoration: none;
-    padding: 2%;
 
 }
 
 #main-nav a:hover {
-    background: #555;
+    
+    opacity: 0.7;
 }
 
 #main-header {
@@ -38,6 +40,10 @@ body {
     padding: 20%;
 }
 
+#main-header h1 {
+    color: #fff;
+}
+
 a {
     color: #555;
 }
@@ -48,18 +54,27 @@ a:hover {
 
 h1 {
     text-align: center;
-    color: #fff;
 }
 
 #content {
-    margin: 10% auto;
+    margin: 5% auto;
     width: 90%;
 }
 
+iframe {
+    width: 100%;
+    min-height: 800px;
+}
+
 #main-footer {
-    background: #222;
+    background: #393939;
     color: #f2f2f2;
     padding: 5%;
+}
+
+#main-footer .fab {
+    font-size: 150%;
+    margin: 2%;
 }
 
 .fa-instagram {
@@ -68,4 +83,16 @@ h1 {
 
 .fa-discord {
     color: #7289DA;
+}
+
+.fa-reddit {
+    color: #ff4301;
+}
+
+.fa-whatsapp {
+    color: #128C7E;
+}
+
+.fa-telegram {
+    color: #0088cc;
 }
