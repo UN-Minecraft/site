@@ -19,14 +19,21 @@
     </header>
 
     <div id="content">
-        <h2>Lorem ipsum </h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, incidunt cum sequi ipsum aspernatur deserunt voluptate atque odit accusamus dignissimos voluptas rerum aperiam voluptatibus, hic ipsam sapiente doloribus, reiciendis ut.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nobis explicabo asperiores magni ea cumque autem consequuntur, quis dolorem tenetur ab culpa optio voluptate voluptatibus dolorum beatae maiores adipisci nemo.</p>
-        <a href="sdfasd">link</a>
-
-        <h3>Lorem ipsum</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, incidunt cum sequi ipsum aspernatur deserunt voluptate atque odit accusamus dignissimos voluptas rerum aperiam voluptatibus, hic ipsam sapiente doloribus, reiciendis ut.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nobis explicabo asperiores magni ea cumque autem consequuntur, quis dolorem tenetur ab culpa optio voluptate voluptatibus dolorum beatae maiores adipisci nemo.</p>
+        <h2>Paginas</h2>
+        <ul>
+            <li>
+                <a href="staff/">Staff</a>
+            </li>
+            <li>
+                <a href="reglas/">Reglas</a>
+            </li>
+            <li>
+                <a href="mapa/">Mapa</a>
+            </li>
+            <li>
+                <a href="contacto/">Contacto</a>
+            </li>
+        </ul>
     </div>
 
     <?php include("footer.php") ?>

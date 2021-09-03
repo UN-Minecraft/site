@@ -1,0 +1,48 @@
+{
+    "programadores": [
+        {
+            "name": "Longsword",
+            "discord": "Leviathan#3551"
+        },
+        {
+            "name": "Seron04",
+            "discord": "sad#9922"
+        }
+    ],
+
+    "creadores": [
+        {
+            "name": "Apolo09",
+            "discord": "Apolo09#1248"
+        },
+        {
+            "name": "Grievous",
+            "discord": "Grievous#9277"
+        },
+        {
+            "name": "Pelero",
+            "discord": "Elpelero#4449"
+        },
+        {
+            "name": "Rasiky",
+            "discord": "CarlosZxS#0676"
+        }
+    ],
+
+    "administradores": [
+        {
+            "name": "Gloria777",
+            "discord": "Darth Sidious#7777"
+        },
+        {
+            "name": "Forero",
+            "discord": "Santiago Forero#0001"
+        }
+    ],
+    "ayudantes": [
+        {
+            "name": "PepinoFresco132",
+            "discord": "PepinoFresco132#6062"
+        }
+    ]    
+}

@@ -9,13 +9,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/89178b42f5.js" crossorigin="anonymous"></script>
-    <title>Reglas</title>
+    <title>Mapa</title>
 </head>
 <body>
-    <?php include("nav.php") ?>
+    <?php include("../nav.php") ?>
+    
     <div id="content">
-        <h1></h1>
+        <h1>Mapa</h1>
+        <iframe src="http://192.3.31.108:31598/" frameborder="0"></iframe>
     </div>
-    <?php include("footer.php") ?>
+    
+
+    <?php include("../footer.php") ?>
 </body>
 </html>

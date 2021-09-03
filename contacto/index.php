@@ -12,10 +12,10 @@
     <title>Reglas</title>
 </head>
 <body>
-    <?php include("nav.php") ?>
+    <?php include("../nav.php") ?>
     <div id="content">
-        <h1></h1>
+        <h1>Contacto</h1>
     </div>
-    <?php include("footer.php") ?>
+    <?php include("../footer.php") ?>
 </body>
 </html>

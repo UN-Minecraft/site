@@ -1,8 +1,8 @@
 <nav id="main-nav">
     <a href="/">
-        <i class="fa fa-home"></i> Home
+        <i class="fas fa-home"></i> Home
     </a>
-    <a href="mapa.php">
+    <a href="mapa/">
         <i class="fas fa-map-marker"></i> Mapa
     </a>
 </nav>
