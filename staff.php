@@ -12,7 +12,7 @@
     <title>Staff</title>
 </head>
 <body>
-    <?php include("../nav.php");
+    <?php include("nav.php");
     $data = file_get_contents("staff.json");
     $data = json_decode($data, true);
     ?>
@@ -70,6 +70,6 @@
             ?>
 
     </div>
-    <?php include("../footer.php") ?>
+    <?php include("footer.php") ?>
 </body>
 </html>
