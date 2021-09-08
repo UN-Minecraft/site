@@ -22,16 +22,16 @@
         <h2>Paginas</h2>
         <ul>
             <li>
-                <a href="staff/">Staff</a>
+                <a href="staff.php">Staff</a>
             </li>
             <li>
-                <a href="reglas/">Reglas</a>
+                <a href="reglas.php">Reglas</a>
             </li>
             <li>
-                <a href="mapa/">Mapa</a>
+                <a href="mapa.php">Mapa</a>
             </li>
             <li>
-                <a href="contacto/">Contacto</a>
+                <a href="contacto.php">Contacto</a>
             </li>
         </ul>
     </div>
