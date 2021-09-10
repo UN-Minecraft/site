@@ -57,7 +57,7 @@
             $response = curl_exec( $ch );
 
             curl_close( $ch );
-            echo '<script>alert("Tu respueta ha sido enviada, gracias por tu tiempo.");</script>';
+            echo '<p>Tu respueta ha sido enviada, gracias por tu tiempo.</p>';
             echo '<a href="/">Volver</a>';
             }
     
