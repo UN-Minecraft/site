@@ -19,6 +19,8 @@
             if($_POST["name"] == null || $_POST["contact"] == null || $_POST["message"] == null || $_POST["tipo"] == null) {
                 echo "<p> Uno o  más valores están incompletos.</p>";
             } else {
+                echo '<p>Tu respueta ha sido enviada, gracias por tu tiempo.</p>';
+                echo '<a href="/">Volver</a>';
                 $webhookurl = "https://discord.com/api/webhooks/885875881044758548/oCV2SxbZDMiannuhMLts3eOitdtLXQlcpetdN3IwYn5XhqZ1HDvxi-3idYndLgpuT-Cp";
                 $timestamp = date("c", strtotime("now"));
                 $json_data = json_encode([
@@ -57,8 +59,6 @@
             $response = curl_exec( $ch );
 
             curl_close( $ch );
-            echo '<p>Tu respueta ha sido enviada, gracias por tu tiempo.</p>';
-            echo '<a href="/">Volver</a>';
             }
     
         ?>
