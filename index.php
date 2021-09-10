@@ -19,20 +19,22 @@
     </header>
 
     <div id="content">
-        <h2>Paginas</h2>
+        <h2>¡Bienvenido/a!</h2>
+        <p>Este es el servidor de Minecraft de la Universidad Nacional de Colombia, hecho por estudiantes para estudiantes.</p>
+        <p>Nuestro principal objetivo es construir las sedes de la UNAL en Minecraft, hasta el momento gracias a nuestros preciados builders se ha construido la sede Bogotá y Medellín casi en su totalidad. Estamos abiertos a recibir nuevos builders que quieran corregir o hacer alguna parte de nuestro lindo campus.</p>
+
+        <h3>Links</h3>
         <ul>
+            <li>
+                <a href="contacto.php">Contacto</a>
+            </li>
             <li>
                 <a href="staff.php">Staff</a>
             </li>
             <li>
                 <a href="reglas.php">Reglas</a>
             </li>
-            <li>
-                <a href="mapa.php">Mapa</a>
-            </li>
-            <li>
-                <a href="contacto.php">Contacto</a>
-            </li>
+            
         </ul>
     </div>
 

@@ -31,7 +31,7 @@ body {
 }
 
 #main-header {
-    background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcs2.worldofmods.com%2Fscreenshots%2Ff80ce%2F2015-09%2Foriginal%2F3fcef9929b66935fc24369af20feba9afe7c1f31%2F173442-javaw-2015-09-26-11-37-36-70.jpg&f=1&nofb=1");
+    background: url("https://cdn.discordapp.com/attachments/747998648041996288/884056409505923082/unknown.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -42,6 +42,7 @@ body {
 
 #main-header h1 {
     color: #fff;
+    font-size: 300%;
 }
 
 a {
